@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Name Validation</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h3><b><u>Form Validation</u></b></h3>
+    <div id="d1">
+        <form>
+            Enter your Name: <input type="text" id="n1" required onkeyup="fun1()"><span id="s1"></span><br><br><br>
+            Enter Age: <input type="number" name="age" id="a1" required onkeyup="fun2()"><span id="s2"></span><br><br><br>
+            Enter Phone number: <input type="text" name="phone" id="p1" required onkeyup="fun3()"><span id="s3"></span> <br><br>
+            Enter email: <input type="email" name="email" id="e1" required onkeyup="fun4()"> <span id="s4"></span> <br><br>
+            Enter Password : <input type="password" name="pass" id="pass" required onkeyup="fun5()"><span id="s5"></span><br><br>
+            <input type="submit" id="submit" value="submit" disabled>
+        </form>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

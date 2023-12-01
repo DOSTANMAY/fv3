@@ -1,0 +1,23 @@
+h3 {
+    text-align: center;
+}
+
+#d1 {
+    margin: 50px;
+    padding: 50px;
+    border: 20px solid #60ab98;
+    border-radius: 50px;
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+}
+
+#submit {
+    margin-top: 10px;
+    align-content: center;
+    height: 50px;
+    width: 280px;
+}
